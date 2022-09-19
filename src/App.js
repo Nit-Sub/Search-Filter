@@ -22,6 +22,7 @@ const App =()=>{
           return (<>
           <div className="user" key={key}>
           <p >   {val.first_name}</p>
+          <p>MOdule</p>
           </div>
           </>)
         })
